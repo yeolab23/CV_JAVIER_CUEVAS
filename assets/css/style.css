@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+}
+
+section{
+    text-align: center;
+    padding-top: 2em;
+}
+
+section div{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    margin-bottom: 3em;
+}
+
+section p{
+    font-weight:300;
+    font-size: ;
+}
+
+section div div{
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
